@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/bootstrap.css">
+	  <link rel="stylesheet" href="css/font-awesome.css">
+	  <link rel="stylesheet" href="css/bootstrap-toggle.css">
+	  <link rel="stylesheet" href="css/styles.css">
+	  
+	</head>
+	<body>
+	<header>
+		<div class="purple-header "> 
+			<div class="container"> 
+			<div class="clearfix ">
+				<div class="pull-left logo"><span class="f-bold">PS</span> <span class="f-light">Admin </span></div>
+				<div class="pull-right mt10"><span class="user-name"><img src="icons/icon_features_user.png"/> Ted Robins, </span> <span class="logout"> Logout </span></div>
+			</div>
+			</div>
+		</div>
+		<div class="main-menu">
+			<div class="container"> <nav class="menu">
+				<ul class="clearfix">
+					<li><a href=""> Home </a></li>
+					<li><a href="" class="active"> Features </a></li>
+				</ul>
+			</nav></div>
+		</div>
+
+	</header>
+	<div class="container">
+		<div class="clearfix mt25">
+			<div class="pull-left">
+				<h3> Global Features</h3>
+			</div>
+			<div class="pull-right mt10">
+				<button type="button" class="btn btn-default btn-green">Audit Log <i class="fa fa-angle-right fa-2" aria-hidden="true"></i></button>
+			</div>
+		</div>
+		
+		<section class="clearfix mt25"> 
+			<div class="row">
+			  <div class="col-md-3">
+				<div class="shadow-box">
+					<ul class="left-menu">
+						<li><a href="#">View All</a></li>
+						<li><a href="#">General</a></li>
+						<li><a href="#" class="active">Care Management <i class="fa fa-caret-right pull-right fa-3" aria-hidden="true"></i></a></li>
+						<li><a href="#">Rewards</a></li>
+						<li><a href="#">Payments</a></li>
+					</ul>
+				</div>
+			  </div>
+			  <div class="col-md-9">
+				<div class="shadow-box right-container">
+					<div class="right-header">
+						<h3> Care Management</h3>
+					</div>
+					<div class="right-content-wrap">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed arcu et augue mattis blandit a non tortor. Vivamusfeugiat rutrum tellus eget rhoncus. Nulla porta tincidunt quam nec mollis. Aliquam enim diam, lacinia sit amet justo at, condimentum faucibus justo. Pellentesque eu dictum arcu, non ultrices justo. Curabitur aliquet facilisis malesuada. </p>
+						<div class="table-section">
+							<table class="table CareManagement-table">
+							  <tr>
+								<th>Toggle <i class="fa fa-sort" aria-hidden="true"></i> </th>
+								<th>Feature</th>
+								<th>Description</th>
+								<th>Status <i class="fa fa-sort" aria-hidden="true"></i></th>
+							  </tr>
+							  <tr> 
+								<td> 
+									<div class="checkbox">
+									  <label>
+										<input type="checkbox" data-toggle="toggle">
+									  </label>
+									</div>
+								</td>
+								<td>Healthy actions</td>
+								<td>Description about Healthy actions</td>
+								<td> <span class="status">Scheduled offline</span><button id="example" data-container="body" data-toggle="popover" data-placement="bottom" 
+								data-content='<div >
+	<h3> Status edit</h2>
+	 <div class="form-group">
+	<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Scheduled offline
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Temporaray offline
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> online
+</label>
+</div>
+<div class="form-group row">
+<div class="col-sm-5">
+    <label>Start date</label>
+	<input type="password" class="form-control" id="inputPassword2" placeholder="Password">  
+	</div>
+	<div class="col-sm-1 mt30"> <i class="fa fa-calendar fa-3" aria-hidden="true"></i></div>
+    <div class="col-sm-5">
+       <label  >Expiry date</label>
+	<input type="password" class="form-control" id="inputPassword2" placeholder="Password"> 
+    </div>
+	<div class="col-sm-1 mt30">  <i class="fa fa-calendar fa-3" aria-hidden="true"></i></div>
+  </div>
+<div class="form-group">
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Option one is this and that&mdash;be sure to include why its great
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+    Option two can be something else and selecting it will deselect option one
+  </label>
+</div>
+<div class="radio ">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+    Option three is disabled
+  </label>
+</div>
+<div class="radio ">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+    other
+  </label>
+</div>
+</div>
+ <div class="form-group "> 
+	<textarea class="form-control"> </textarea>
+ </div>
+  <div class="form-group ">
+	<button type="submit" class="btn btn-default btn-green">Save</button> 
+	<button type="submit" class="btn btn-default btn-green">Cancel</button>
+  </div>
+  
+</div>' type="button" class="btn btn-default btn-green" >
+  <i class="fa fa-pencil " aria-hidden="true"  ></i>
+</button></td>
+							  </tr>
+							  <tr> 
+								<td> 
+									<div class="checkbox">
+									  <label>
+										<input type="checkbox" data-toggle="toggle">
+									  </label>
+									</div>
+								</td>
+								<td>Healthy HOA</td>
+								<td>Description about Healthy HOA</td>
+								<td> <span class="status">Scheduled offline</span> <button type="button" class="btn btn-default btn-green"> <i class="fa fa-pencil " aria-hidden="true"></i></button></td>
+							  </tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			  </div>
+			</div>
+			
+		</section>
+	</div>
+	
+	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.1.1.slim.min.js" ></script>
+    <script src="js/bootstrap.min.js"  ></script>
+    <script src="js/bootstrap-toggle.js"  ></script>
+	<script>
+	
+		$(function () {
+		
+		
+		  $('[data-toggle="popover"]').popover( 
+		  { html:true}
+		  )
+		});
+	</script>
+	</body>
+</html>
+	
